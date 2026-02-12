@@ -19,8 +19,8 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
-app.UseHttpsRedirection(); 
-app.UseBlazorFrameworkFiles(); 
+app.UseHttpsRedirection();
+app.UseDefaultFiles();
 app.UseStaticFiles();
 app.UseCors();
 
