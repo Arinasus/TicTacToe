@@ -1,0 +1,157 @@
+﻿@page "/game"
+@using Microsoft.AspNetCore.SignalR.Client
+@using TicTacToe.Shared
+@inject HubConnection Hub
+@inject IJSRuntime JSRuntime
+
+<div class="container mt-5">
+    <h1 class="title has-text-centered">🎮 Tic Tac Toe</h1>
+    <p class="subtitle has-text-centered">Игрок: <strong>@playerName</strong></p>
+
+    <div class="buttons is-centered mb-4">
+        <button class="button is-success" @onclick="CreateGame">➕ Создать игру</button>
+        <button class="button is-info" @onclick="LoadGames">🔄 Обновить список игр</button>
+    </div>
+
+    <div class="columns is-multiline">
+        @foreach (var g in availableGames)
+        {
+            <div class="column is-one-third">
+                <div class="card">
+                    <div class="card-content">
+                        <p><strong>Игра:</strong> @g.GameId</p>
+                        <p><strong>Создатель:</strong> @g.CreatedBy</p>
+                        <p><strong>Игроков:</strong> @g.PlayerCount @(g.GameOver ? "(завершена)" : "")</p>
+                        <p><strong>Список игроков:</strong> @string.Join(", ", g.Players)</p>
+                        <button class="button is-warning mt-2"
+                                disabled="@(g.PlayerCount >= 2 || g.GameOver)"
+                                @onclick="() => JoinGame(g.GameId)">
+                            Подключиться
+                        </button>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+    @if (!string.IsNullOrEmpty(currentGameId))
+    {
+        <div class="box has-text-centered mt-5">
+            <h2 class="subtitle">Игра: @currentGameId</h2>
+
+            <div class="board">
+                @for (int i = 0; i < 3; i++)
+                {
+                    <div class="columns is-centered">
+                        @for (int j = 0; j < 3; j++)
+                        {
+                            var row = i;
+                            var col = j;
+                            <button class="button is-large is-light m-1"
+                                    style="width:80px;height:80px;font-size:28px;"
+                                    disabled="@(!string.IsNullOrEmpty(board[row, col]) || gameOver || mySymbol != currentTurn)"
+                                    @onclick="() => MakeMove(row, col)">
+                                @(board[row, col] ?? "")
+                            </button>
+                        }
+                    </div>
+                }
+            </div>
+
+            <div class="notification is-primary mt-3">
+                @status
+            </div>
+        </div>
+    }
+</div>
+
+@code {
+    List<GameInfo> availableGames = new();
+    string[,] board = new string[3, 3];
+    string status = "Выберите игру или создайте новую";
+    string mySymbol;
+    string currentTurn = "X";
+    bool gameOver = false;
+    string currentGameId;
+    string playerName;
+
+    protected override async Task OnInitializedAsync()
+    {
+        playerName = await JSRuntime.InvokeAsync<string>("localStorage.getItem", "playerName");
+
+        Hub.On<string, int, int>("ReceiveMove", (player, x, y) =>
+        {
+            board[x, y] = player;
+            StateHasChanged();
+        });
+
+        Hub.On<string>("AssignSymbol", symbol =>
+        {
+            mySymbol = symbol;
+            status = $"Вы играете за {symbol}";
+            StateHasChanged();
+        });
+
+        Hub.On<string, int>("PlayerJoined", (symbol, count) =>
+        {
+            status = $"Игрок {symbol} подключился. Всего игроков: {count}";
+            StateHasChanged();
+        });
+
+        Hub.On<string>("TurnChanged", symbol =>
+        {
+            currentTurn = symbol;
+            status = $"Теперь ходит {symbol}";
+            StateHasChanged();
+        });
+
+        Hub.On<string>("GameOver", winner =>
+        {
+            gameOver = true;
+            status = winner switch
+            {
+                "Draw" => "Ничья!",
+                var w when w == mySymbol => "Вы выиграли!",
+                _ => $"Вы проиграли. Победил {winner}"
+            };
+            StateHasChanged();
+        });
+
+        await Hub.StartAsync();
+        await LoadGames();
+    }
+
+    private async Task CreateGame()
+    {
+        currentGameId = await Hub.InvokeAsync<string>("CreateGame", playerName);
+        board = new string[3, 3];
+        gameOver = false;
+        status = $"Вы создали игру ({playerName}) и играете за X";
+        await LoadGames();
+    }
+
+    private async Task LoadGames()
+    {
+        availableGames = await Hub.InvokeAsync<List<GameInfo>>("ListGames");
+        StateHasChanged();
+    }
+
+    private async Task JoinGame(string gameId)
+    {
+        if (string.IsNullOrEmpty(gameId)) return;
+        currentGameId = gameId;
+        board = new string[3, 3];
+        gameOver = false;
+        await Hub.SendAsync("JoinGame", gameId, playerName);
+    }
+
+    private async Task MakeMove(int x, int y)
+    {
+        if (!gameOver && string.IsNullOrEmpty(board[x, y]) && mySymbol == currentTurn)
+        {
+            board[x, y] = mySymbol;
+            StateHasChanged();
+            await Hub.SendAsync("SendMove", currentGameId, mySymbol, x, y);
+        }
+    }
+}

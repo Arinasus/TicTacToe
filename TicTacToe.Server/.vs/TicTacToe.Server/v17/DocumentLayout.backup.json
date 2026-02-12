@@ -1,0 +1,251 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u041A\u0443\u0440\u0441\u044B\\TicTacToe.Server\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9D6D6AEA-0460-0177-DD77-ED55525B555C}|..\\TicTacToeApp\\TicTacToeApp.csproj|d:\\\u043A\u0443\u0440\u0441\u044B\\tictactoeapp\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D6D6AEA-0460-0177-DD77-ED55525B555C}|..\\TicTacToeApp\\TicTacToeApp.csproj|d:\\\u043A\u0443\u0440\u0441\u044B\\tictactoeapp\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D6D6AEA-0460-0177-DD77-ED55525B555C}|..\\TicTacToeApp\\TicTacToeApp.csproj|d:\\\u043A\u0443\u0440\u0441\u044B\\tictactoeapp\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D6D6AEA-0460-0177-DD77-ED55525B555C}|..\\TicTacToeApp\\TicTacToeApp.csproj|d:\\\u043A\u0443\u0440\u0441\u044B\\tictactoeapp\\pages\\game.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E08ECE1-2919-4932-AAAF-C9CFCB02EB94}|TicTacToe.Server.csproj|d:\\\u043A\u0443\u0440\u0441\u044B\\tictactoe.server\\hubs\\gamehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E08ECE1-2919-4932-AAAF-C9CFCB02EB94}|TicTacToe.Server.csproj|solutionrelative:hubs\\gamehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9007097A-D76C-4550-B3BF-8DD4F687D2CD}|..\\TicTacToe.Shared\\TicTacToe.Shared.csproj|d:\\\u043A\u0443\u0440\u0441\u044B\\tictactoe.shared\\gameinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D6D6AEA-0460-0177-DD77-ED55525B555C}|..\\TicTacToeApp\\TicTacToeApp.csproj|d:\\\u043A\u0443\u0440\u0441\u044B\\tictactoeapp\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D6D6AEA-0460-0177-DD77-ED55525B555C}|..\\TicTacToeApp\\TicTacToeApp.csproj|d:\\\u043A\u0443\u0440\u0441\u044B\\tictactoeapp\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D6D6AEA-0460-0177-DD77-ED55525B555C}|..\\TicTacToeApp\\TicTacToeApp.csproj|d:\\\u043A\u0443\u0440\u0441\u044B\\tictactoeapp\\tictactoeapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D6D6AEA-0460-0177-DD77-ED55525B555C}|..\\TicTacToeApp\\TicTacToeApp.csproj|d:\\\u043A\u0443\u0440\u0441\u044B\\tictactoeapp\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E08ECE1-2919-4932-AAAF-C9CFCB02EB94}|TicTacToe.Server.csproj|d:\\\u043A\u0443\u0440\u0441\u044B\\tictactoe.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E08ECE1-2919-4932-AAAF-C9CFCB02EB94}|TicTacToe.Server.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D6D6AEA-0460-0177-DD77-ED55525B555C}|..\\TicTacToeApp\\TicTacToeApp.csproj|d:\\\u043A\u0443\u0440\u0441\u044B\\tictactoeapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E08ECE1-2919-4932-AAAF-C9CFCB02EB94}|TicTacToe.Server.csproj|d:\\\u043A\u0443\u0440\u0441\u044B\\tictactoe.server\\tictactoe.server.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{7E08ECE1-2919-4932-AAAF-C9CFCB02EB94}|TicTacToe.Server.csproj|solutionrelative:tictactoe.server.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E08ECE1-2919-4932-AAAF-C9CFCB02EB94}|TicTacToe.Server.csproj|d:\\\u043A\u0443\u0440\u0441\u044B\\tictactoe.server\\tictactoe.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7E08ECE1-2919-4932-AAAF-C9CFCB02EB94}|TicTacToe.Server.csproj|solutionrelative:tictactoe.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "D:\\\u041A\u0443\u0440\u0441\u044B\\TicTacToeApp\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "..\\TicTacToeApp\\Layout\\MainLayout.razor",
+              "ToolTip": "D:\\\u041A\u0443\u0440\u0441\u044B\\TicTacToeApp\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "..\\TicTacToeApp\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-12T00:35:03.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.razor",
+              "DocumentMoniker": "D:\\\u041A\u0443\u0440\u0441\u044B\\TicTacToeApp\\App.razor",
+              "RelativeDocumentMoniker": "..\\TicTacToeApp\\App.razor",
+              "ToolTip": "D:\\\u041A\u0443\u0440\u0441\u044B\\TicTacToeApp\\App.razor",
+              "RelativeToolTip": "..\\TicTacToeApp\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-12T00:35:47.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "D:\\\u041A\u0443\u0440\u0441\u044B\\TicTacToeApp\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "..\\TicTacToeApp\\Layout\\NavMenu.razor",
+              "ToolTip": "D:\\\u041A\u0443\u0440\u0441\u044B\\TicTacToeApp\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "..\\TicTacToeApp\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-12T00:35:36.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GameInfo.cs",
+              "DocumentMoniker": "D:\\\u041A\u0443\u0440\u0441\u044B\\TicTacToe.Shared\\GameInfo.cs",
+              "RelativeDocumentMoniker": "..\\TicTacToe.Shared\\GameInfo.cs",
+              "ToolTip": "D:\\\u041A\u0443\u0440\u0441\u044B\\TicTacToe.Shared\\GameInfo.cs",
+              "RelativeToolTip": "..\\TicTacToe.Shared\\GameInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T00:04:20.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameHub.cs",
+              "DocumentMoniker": "D:\\\u041A\u0443\u0440\u0441\u044B\\TicTacToe.Server\\Hubs\\GameHub.cs",
+              "RelativeDocumentMoniker": "Hubs\\GameHub.cs",
+              "ToolTip": "D:\\\u041A\u0443\u0440\u0441\u044B\\TicTacToe.Server\\Hubs\\GameHub.cs",
+              "RelativeToolTip": "Hubs\\GameHub.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAuwDMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T21:23:43.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Game.razor",
+              "DocumentMoniker": "D:\\\u041A\u0443\u0440\u0441\u044B\\TicTacToeApp\\Pages\\Game.razor",
+              "RelativeDocumentMoniker": "..\\TicTacToeApp\\Pages\\Game.razor",
+              "ToolTip": "D:\\\u041A\u0443\u0440\u0441\u044B\\TicTacToeApp\\Pages\\Game.razor",
+              "RelativeToolTip": "..\\TicTacToeApp\\Pages\\Game.razor",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAmwJ0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-11T22:21:29.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.razor",
+              "DocumentMoniker": "D:\\\u041A\u0443\u0440\u0441\u044B\\TicTacToeApp\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "..\\TicTacToeApp\\Pages\\Login.razor",
+              "ToolTip": "D:\\\u041A\u0443\u0440\u0441\u044B\\TicTacToeApp\\Pages\\Login.razor",
+              "RelativeToolTip": "..\\TicTacToeApp\\Pages\\Login.razor",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAswBYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-12T00:22:57.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\\u041A\u0443\u0440\u0441\u044B\\TicTacToeApp\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "..\\TicTacToeApp\\wwwroot\\index.html",
+              "ToolTip": "D:\\\u041A\u0443\u0440\u0441\u044B\\TicTacToeApp\\wwwroot\\index.html",
+              "RelativeToolTip": "..\\TicTacToeApp\\wwwroot\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-02-12T00:15:48.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TicTacToeApp",
+              "DocumentMoniker": "D:\\\u041A\u0443\u0440\u0441\u044B\\TicTacToeApp\\TicTacToeApp.csproj",
+              "RelativeDocumentMoniker": "..\\TicTacToeApp\\TicTacToeApp.csproj",
+              "ToolTip": "D:\\\u041A\u0443\u0440\u0441\u044B\\TicTacToeApp\\TicTacToeApp.csproj",
+              "RelativeToolTip": "..\\TicTacToeApp\\TicTacToeApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-12T00:07:17.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "D:\\\u041A\u0443\u0440\u0441\u044B\\TicTacToeApp\\_Imports.razor",
+              "RelativeDocumentMoniker": "..\\TicTacToeApp\\_Imports.razor",
+              "ToolTip": "D:\\\u041A\u0443\u0440\u0441\u044B\\TicTacToeApp\\_Imports.razor",
+              "RelativeToolTip": "..\\TicTacToeApp\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-11T23:59:41.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\\u041A\u0443\u0440\u0441\u044B\\TicTacToe.Server\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\\u041A\u0443\u0440\u0441\u044B\\TicTacToe.Server\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T21:56:31.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\\u041A\u0443\u0440\u0441\u044B\\TicTacToeApp\\Program.cs",
+              "RelativeDocumentMoniker": "..\\TicTacToeApp\\Program.cs",
+              "ToolTip": "D:\\\u041A\u0443\u0440\u0441\u044B\\TicTacToeApp\\Program.cs",
+              "RelativeToolTip": "..\\TicTacToeApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T22:20:53.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TicTacToe.Server.csproj",
+              "DocumentMoniker": "D:\\\u041A\u0443\u0440\u0441\u044B\\TicTacToe.Server\\TicTacToe.Server.csproj",
+              "RelativeDocumentMoniker": "TicTacToe.Server.csproj",
+              "ToolTip": "D:\\\u041A\u0443\u0440\u0441\u044B\\TicTacToe.Server\\TicTacToe.Server.csproj",
+              "RelativeToolTip": "TicTacToe.Server.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-11T21:23:10.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TicTacToe.Server",
+              "DocumentMoniker": "D:\\\u041A\u0443\u0440\u0441\u044B\\TicTacToe.Server\\TicTacToe.Server.csproj",
+              "RelativeDocumentMoniker": "TicTacToe.Server.csproj",
+              "ToolTip": "D:\\\u041A\u0443\u0440\u0441\u044B\\TicTacToe.Server\\TicTacToe.Server.csproj",
+              "RelativeToolTip": "TicTacToe.Server.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-11T22:05:20.194Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
