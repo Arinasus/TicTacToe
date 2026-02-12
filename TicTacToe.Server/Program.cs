@@ -1,7 +1,9 @@
 using TicTacToe.Server.Hubs;
-
+using Microsoft.AspNetCore.Builder;
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddControllersWithViews(); 
+builder.Services.AddRazorPages();
 builder.Services.AddSignalR();
 builder.Services.AddCors(options =>
 {
@@ -17,10 +19,15 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
-app.UseCors(); // включаем CORS
+app.UseHttpsRedirection(); 
+app.UseBlazorFrameworkFiles(); 
+app.UseStaticFiles();
+app.UseCors();
 
+app.UseRouting();
+app.MapControllers();
+app.MapRazorPages();
 app.MapHub<GameHub>("/gamehub");
-
-app.MapGet("/", () => "TicTacToe Server запущен!");
+app.MapFallbackToFile("index.html");
 
 app.Run();
