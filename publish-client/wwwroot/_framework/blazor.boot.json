@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "TicTacToeApp",
   "resources": {
-    "hash": "sha256-ckmjM4h7DtDp8P1u6qLF/+fSEtBH/ovb7V0Sk0VW0Oc=",
+    "hash": "sha256-fUqUnQyM6yOzkT+zykM5xghOLsUb8AfY1Iz95CBnDnQ=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-xNQsYHtL1vcbrVTHDZAwJM4WovpoyjsrM2C6FQ8cW1w="
     },
@@ -118,8 +118,8 @@
       "System.Threading.wasm": "sha256-O3f+WGt8S9iMgMkiwag9KjX/lVXWBpI7t/TkuEBVST8=",
       "System.wasm": "sha256-Imc3VKweWiVSTfISxn8qRdbj1a3TmdIPoZ2BQ8U+dV8=",
       "System.Xml.Linq.wasm": "sha256-Pluwz37ouIbh57inrBPeiJDw1cPFifXCzhbvWNhqyTk=",
-      "TicTacToe.Shared.wasm": "sha256-W+XuDGb4IAxiYtXdbjTbEEqUCaEyedsT+iRSoOHjSeE=",
-      "TicTacToeApp.wasm": "sha256-0ypiDZ6z7MMIlFInbiteobnXTEX4jmfcJw84VBjiiDA="
+      "TicTacToe.Shared.wasm": "sha256-KUxjblOxor79aeoIdAldq+74UbjHdK/aYBwz6js0kBs=",
+      "TicTacToeApp.wasm": "sha256-PHdRQlnC+1+ZsaOnlXLoc87NUgJt1hIlTVicyYRheL0="
     }
   },
   "cacheBootResources": true,
