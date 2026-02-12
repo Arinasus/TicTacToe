@@ -16,7 +16,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TicTacToe.Shared\TicTacToe.Shared.csproj" />
-    <ProjectReference Include="..\TicTacToeApp\TicTacToeApp.csproj" />
+	  <ProjectReference Include="..\TicTacToeApp\TicTacToeApp.csproj"
+					  ReferenceOutputAssembly="false" />
   </ItemGroup>
 
 </Project>

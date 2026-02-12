@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\\u041A\u0443\u0440\u0441\u044B\\TicTacToe\\TicTacToe.Server\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7E08ECE1-2919-4932-AAAF-C9CFCB02EB94}|TicTacToe.Server.csproj|d:\\\u043A\u0443\u0440\u0441\u044B\\tictactoe\\tictactoe.server\\tictactoe.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7E08ECE1-2919-4932-AAAF-C9CFCB02EB94}|TicTacToe.Server.csproj|solutionrelative:tictactoe.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9D6D6AEA-0460-0177-DD77-ED55525B555C}|..\\TicTacToeApp\\TicTacToeApp.csproj|d:\\\u043A\u0443\u0440\u0441\u044B\\tictactoe\\tictactoeapp\\tictactoeapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
@@ -11,10 +15,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D6D6AEA-0460-0177-DD77-ED55525B555C}|..\\TicTacToeApp\\TicTacToeApp.csproj|d:\\\u043A\u0443\u0440\u0441\u044B\\tictactoe\\tictactoeapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E08ECE1-2919-4932-AAAF-C9CFCB02EB94}|TicTacToe.Server.csproj|d:\\\u043A\u0443\u0440\u0441\u044B\\tictactoe\\tictactoe.server\\tictactoe.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{7E08ECE1-2919-4932-AAAF-C9CFCB02EB94}|TicTacToe.Server.csproj|solutionrelative:tictactoe.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u041A\u0443\u0440\u0441\u044B\\TicTacToeApp\\App.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
@@ -72,32 +72,18 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\\u041A\u0443\u0440\u0441\u044B\\TicTacToe\\TicTacToeApp\\Program.cs",
-              "RelativeDocumentMoniker": "..\\TicTacToeApp\\Program.cs",
-              "ToolTip": "D:\\\u041A\u0443\u0440\u0441\u044B\\TicTacToe\\TicTacToeApp\\Program.cs",
-              "RelativeToolTip": "..\\TicTacToeApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-12T11:37:14.97Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
               "DocumentMoniker": "D:\\\u041A\u0443\u0440\u0441\u044B\\TicTacToe\\TicTacToe.Server\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\\u041A\u0443\u0440\u0441\u044B\\TicTacToe\\TicTacToe.Server\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAADwvxoAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-11T21:56:31.783Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-11T21:56:31.783Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TicTacToeApp",
+              "DocumentIndex": 1,
+              "Title": "TicTacToeApp.csproj",
               "DocumentMoniker": "D:\\\u041A\u0443\u0440\u0441\u044B\\TicTacToe\\TicTacToeApp\\TicTacToeApp.csproj",
               "RelativeDocumentMoniker": "..\\TicTacToeApp\\TicTacToeApp.csproj",
               "ToolTip": "D:\\\u041A\u0443\u0440\u0441\u044B\\TicTacToe\\TicTacToeApp\\TicTacToeApp.csproj",
@@ -109,16 +95,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "TicTacToe.Server.csproj",
               "DocumentMoniker": "D:\\\u041A\u0443\u0440\u0441\u044B\\TicTacToe\\TicTacToe.Server\\TicTacToe.Server.csproj",
               "RelativeDocumentMoniker": "TicTacToe.Server.csproj",
               "ToolTip": "D:\\\u041A\u0443\u0440\u0441\u044B\\TicTacToe\\TicTacToe.Server\\TicTacToe.Server.csproj",
               "RelativeToolTip": "TicTacToe.Server.csproj",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAkwBYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAkwAYAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2026-02-11T21:23:10.615Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\\u041A\u0443\u0440\u0441\u044B\\TicTacToe\\TicTacToeApp\\Program.cs",
+              "RelativeDocumentMoniker": "..\\TicTacToeApp\\Program.cs",
+              "ToolTip": "D:\\\u041A\u0443\u0440\u0441\u044B\\TicTacToe\\TicTacToeApp\\Program.cs",
+              "RelativeToolTip": "..\\TicTacToeApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T11:37:14.97Z"
             },
             {
               "$type": "Document",
