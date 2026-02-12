@@ -1,23 +1,28 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
 	<PropertyGroup>
 		<BlazorWebAssemblyEnableLinking>true</BlazorWebAssemblyEnableLinking>
 	</PropertyGroup>
-  <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="10.0.3" />
-    <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="10.0.3" />
-    <PackageReference Include="Microsoft.AspNetCore.SignalR.Common" Version="10.0.3" />
-  </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\TicTacToe.Shared\TicTacToe.Shared.csproj" />
-	  <ProjectReference Include="..\TicTacToeApp\TicTacToeApp.csproj"
-					  ReferenceOutputAssembly="false" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="10.0.3" />
+		<PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="10.0.3" />
+		<PackageReference Include="Microsoft.AspNetCore.SignalR.Common" Version="10.0.3" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\TicTacToe.Shared\TicTacToe.Shared.csproj" />
+		<ProjectReference Include="..\TicTacToeApp\TicTacToeApp.csproj"
+						  ReferenceOutputAssembly="false" />
+	</ItemGroup>
+	<Target Name="CopyBlazorClientFiles" AfterTargets="Build">
+		<Exec Command="dotnet publish ../TicTacToeApp/TicTacToeApp.csproj -c Release -o $(ProjectDir)wwwroot" />
+	</Target>
 
 </Project>
